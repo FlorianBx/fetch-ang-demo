@@ -1,0 +1,8 @@
+.user-list-container {
+  padding: 1rem;
+}
+
+.user-list-container p {
+  margin-bottom: 1rem;
+  border-bottom: 1px solid #ccc;
+}

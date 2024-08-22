@@ -1,0 +1,7 @@
+<div class="user-list-container">
+  @for (user of users; track user.id) {
+    <p>{{ user.id }} - {{ user.name }}</p>
+  } @empty {
+    <p>No users</p>
+  }
+  </div>
